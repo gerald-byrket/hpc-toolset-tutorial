@@ -58,6 +58,7 @@ mkdir -p ~/ondemand/dev
 cd ~/ondemand/dev
 ln -s ../../ondemand-src-full/apps/dashboard/ dashboard
 cd dashboard
+git checkout release_2.0
 bin/setup
 ```
 
