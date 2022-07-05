@@ -59,6 +59,7 @@ cd ~/ondemand/dev
 ln -s ../../ondemand-src-full/apps/dashboard/ dashboard
 cd dashboard
 git checkout release_2.0
+bin/bundle config --local path vendor/bundle
 bin/setup
 ```
 
